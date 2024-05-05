@@ -22,6 +22,7 @@ namespace Blog.Data.Extensions
             services.AddScoped<IUnitOfWork, Blog.Data.UnitOfWork.UnitOfWork>();
 
 
+
             return services;
         }
     }
