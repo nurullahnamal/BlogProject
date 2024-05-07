@@ -15,7 +15,7 @@ namespace Blog.Data.Mappings
         {
             builder.HasData(new Image
             {
-                Id = Guid.Parse("{3654C9A2-82C0-4E22-9479-7DB9069FE409}"),
+                Id = Guid.Parse("3654C9A2-82C0-4E22-9479-7DB9069FE409"),
                 FileName = "dwadaw",
                 FileType = "png",
                 CreatedBy = "Admin Test",
@@ -25,7 +25,7 @@ namespace Blog.Data.Mappings
 
             new Image
             {
-                Id = Guid.Parse("{903BD50C-1C68-4FB2-BB32-2B4AA7D9900D}"),
+                Id = Guid.Parse("903BD50C-1C68-4FB2-BB32-2B4AA7D9900D"),
                 FileName = "dwadaw",
                 FileType = "png",
                 CreatedBy="Admin Test",
