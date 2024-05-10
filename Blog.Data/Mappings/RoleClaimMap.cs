@@ -20,4 +20,3 @@ namespace Blog.Data.Mappings
         }
     }
 }
-

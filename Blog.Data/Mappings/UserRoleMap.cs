@@ -18,20 +18,16 @@ namespace Blog.Data.Mappings
             // Maps to the AspNetUserRoles table
             builder.ToTable("AspNetUserRoles");
 
-
-
             builder.HasData(new AppUserRole
             {
-                UserId= Guid.Parse("945B2D6B-7E8A-4938-A485-7F729BADE00A"),
-                RoleId= Guid.Parse("F3F18BAE-431E-44E7-B1B2-79EE4621DD24")
+                UserId = Guid.Parse("CB94223B-CCB8-4F2F-93D7-0DF96A7F065C"),
+                RoleId = Guid.Parse("16EA936C-7A28-4C30-86A2-9A9704B6115E")
             },
             new AppUserRole
             {
-                UserId = Guid.Parse("1713C70C-1EF6-4201-B5FB-73E28054822C"),
-                RoleId = Guid.Parse("E524514B-F771-4793-A579-65F546E54009"),
+                UserId = Guid.Parse("3AA42229-1C0F-4630-8C1A-DB879ECD0427"),
+                RoleId = Guid.Parse("7CB750CF-3612-4FB4-9F7D-A38BA8F16BF4")
             });
         }
-
-        
     }
 }

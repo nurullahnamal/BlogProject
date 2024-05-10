@@ -15,23 +15,21 @@ namespace Blog.Data.Mappings
         {
             builder.HasData(new Image
             {
-                Id = Guid.Parse("3654C9A2-82C0-4E22-9479-7DB9069FE409"),
-                FileName = "dwadaw",
-                FileType = "png",
+                Id = Guid.Parse("F71F4B9A-AA60-461D-B398-DE31001BF214"),
+                FileName = "images/testimage",
+                FileType = "jpg",
                 CreatedBy = "Admin Test",
                 CreatedDate = DateTime.Now,
                 IsDeleted = false
             },
-
             new Image
             {
-                Id = Guid.Parse("903BD50C-1C68-4FB2-BB32-2B4AA7D9900D"),
-                FileName = "dwadaw",
+                Id = Guid.Parse("D16A6EC7-8C50-4AB0-89A5-02B9A551F0FA"),
+                FileName = "images/vstest",
                 FileType = "png",
-                CreatedBy="Admin Test",
+                CreatedBy = "Admin Test",
                 CreatedDate = DateTime.Now,
                 IsDeleted = false
-                
             });
         }
     }

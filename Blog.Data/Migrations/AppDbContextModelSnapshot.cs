@@ -52,23 +52,23 @@ namespace Blog.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("f3f18bae-431e-44e7-b1b2-79ee4621dd24"),
-                            ConcurrencyStamp = "acb1026c-47f3-4766-954e-645c1ea5ce16",
+                            Id = new Guid("16ea936c-7a28-4c30-86a2-9a9704b6115e"),
+                            ConcurrencyStamp = "5b3d08de-6caf-4dd8-b172-26342372fd45",
                             Name = "Superadmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
-                            Id = new Guid("e524514b-f771-4793-a579-65f546e54009"),
-                            ConcurrencyStamp = "3e46472b-dca9-440a-85a9-bad8d4e42762",
+                            Id = new Guid("7cb750cf-3612-4fb4-9f7d-a38ba8f16bf4"),
+                            ConcurrencyStamp = "a51e9826-f612-4de0-8891-851d16223d55",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = new Guid("a864b42c-0ed3-48e4-8571-567b00603e42"),
-                            ConcurrencyStamp = "465a5895-8d0e-4c32-87be-3afffb6bffe7",
-                            Name = "user",
+                            Id = new Guid("edf6c246-41d8-475f-8d92-41dddac3aefb"),
+                            ConcurrencyStamp = "ee2ece35-a5e7-4de7-97a7-d3b27212d82b",
+                            Name = "User",
                             NormalizedName = "USER"
                         });
                 });
@@ -178,41 +178,41 @@ namespace Blog.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("945b2d6b-7e8a-4938-a485-7f729bade00a"),
+                            Id = new Guid("cb94223b-ccb8-4f2f-93d7-0df96a7f065c"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ca7d03ad-4aa2-4854-b1bc-32bc24764c0f",
+                            ConcurrencyStamp = "44f62bd6-48e9-42fe-82b3-74aabd8d237d",
                             Email = "superadmin@gmail.com",
                             EmailConfirmed = true,
-                            FirstName = "nurullah ",
-                            ImageId = new Guid("3654c9a2-82c0-4e22-9479-7db9069fe409"),
-                            LastName = "yılmaz",
+                            FirstName = "Cem",
+                            ImageId = new Guid("f71f4b9a-aa60-461d-b398-de31001bf214"),
+                            LastName = "Keskin",
                             LockoutEnabled = false,
-                            NormalizedEmail = "SUPERADMİN@GMAİL.COM",
-                            NormalizedUserName = "SUPERADMİN@GMAİL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAED4yHZLbRAh4uZNpp/aEwcLy38EGYb4uZ5mi7qXaiVIgEN8o31nVinOGgnERqwyVDA==",
-                            PhoneNumber = "05252525525",
+                            NormalizedEmail = "SUPERADMIN@GMAIL.COM",
+                            NormalizedUserName = "SUPERADMIN@GMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJ18lt8yLRIjZ13jecAArQUHhLXMU5lE0JlSptSRjZN2V8bOScIIzUxm0SYX2hFX0w==",
+                            PhoneNumber = "+905439999999",
                             PhoneNumberConfirmed = true,
-                            SecurityStamp = "e7045a3d-8ee0-4ae5-bc64-9d0f54bb95b3",
+                            SecurityStamp = "86de35ae-7047-4f24-830c-abe67e7a2715",
                             TwoFactorEnabled = false,
                             UserName = "superadmin@gmail.com"
                         },
                         new
                         {
-                            Id = new Guid("1713c70c-1ef6-4201-b5fb-73e28054822c"),
+                            Id = new Guid("3aa42229-1c0f-4630-8c1a-db879ecd0427"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c8c01f8a-39f9-49b5-8e9a-ed5872e7e22b",
+                            ConcurrencyStamp = "eb0e8083-f58b-4099-be5e-f94392a858dd",
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
-                            FirstName = "yusuf ",
-                            ImageId = new Guid("903bd50c-1c68-4fb2-bb32-2b4aa7d9900d"),
-                            LastName = "yılmaz",
+                            FirstName = "Admin",
+                            ImageId = new Guid("d16a6ec7-8c50-4ab0-89a5-02b9a551f0fa"),
+                            LastName = "User",
                             LockoutEnabled = false,
-                            NormalizedEmail = "ADMİN@GMAİL.COM",
-                            NormalizedUserName = "ADMİN@GMAİL.COM",
-                            PasswordHash = "AQAAAAEAACcQAAAAEGwTV8ZPWI9yAsnPQGNd3bwpgU3K0h1qTDlJ1HD7hdx0TbgRXaQ8ekGMnd3GZ+o7AQ==",
-                            PhoneNumber = "0525625525",
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN@GMAIL.COM",
+                            PasswordHash = "AQAAAAEAACcQAAAAEMscEu8mVcC69X/987Zj3BQ9E9a6v7DnNzGd5wdbSP8gitv5HXtdvo5CExLsP5R8FA==",
+                            PhoneNumber = "+905439999988",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "93ef4394-bb23-4238-ad1a-4eb3c11fb729",
+                            SecurityStamp = "9398e5e1-a470-4e79-a6dd-ac2f8f9df86e",
                             TwoFactorEnabled = false,
                             UserName = "admin@gmail.com"
                         });
@@ -282,13 +282,13 @@ namespace Blog.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = new Guid("945b2d6b-7e8a-4938-a485-7f729bade00a"),
-                            RoleId = new Guid("f3f18bae-431e-44e7-b1b2-79ee4621dd24")
+                            UserId = new Guid("cb94223b-ccb8-4f2f-93d7-0df96a7f065c"),
+                            RoleId = new Guid("16ea936c-7a28-4c30-86a2-9a9704b6115e")
                         },
                         new
                         {
-                            UserId = new Guid("1713c70c-1ef6-4201-b5fb-73e28054822c"),
-                            RoleId = new Guid("e524514b-f771-4793-a579-65f546e54009")
+                            UserId = new Guid("3aa42229-1c0f-4630-8c1a-db879ecd0427"),
+                            RoleId = new Guid("7cb750cf-3612-4fb4-9f7d-a38ba8f16bf4")
                         });
                 });
 
@@ -372,29 +372,29 @@ namespace Blog.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("35b4a212-38fc-437d-ad54-a32719665b1c"),
-                            CategoryId = new Guid("f2e461bb-875d-4d0a-aff7-f8db21f937a1"),
-                            Content = "---------------dwa---------------------ddwa---------------------ddwa---------------------ddwa---------------------",
-                            CreatedBy = "Test",
-                            CreatedDate = new DateTime(2024, 5, 7, 18, 21, 28, 876, DateTimeKind.Local).AddTicks(8057),
-                            ImageId = new Guid("3654c9a2-82c0-4e22-9479-7db9069fe409"),
+                            Id = new Guid("1a8f9a2b-f55e-47dc-9c4d-91fe26683da5"),
+                            CategoryId = new Guid("4c569a9a-5f41-478f-9d17-69ac5b02ae0b"),
+                            Content = "Asp.net Core Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.",
+                            CreatedBy = "Admin Test",
+                            CreatedDate = new DateTime(2024, 5, 10, 10, 19, 38, 676, DateTimeKind.Local).AddTicks(5444),
+                            ImageId = new Guid("f71f4b9a-aa60-461d-b398-de31001bf214"),
                             IsDeleted = false,
-                            Title = "Asp net Deneme makalesi",
-                            UserId = new Guid("945b2d6b-7e8a-4938-a485-7f729bade00a"),
+                            Title = "Asp.net Core Deneme Makalesi 1",
+                            UserId = new Guid("cb94223b-ccb8-4f2f-93d7-0df96a7f065c"),
                             ViewCount = 15
                         },
                         new
                         {
-                            Id = new Guid("cb1d5a54-24c1-48b5-950a-3c3f82ea3dc6"),
-                            CategoryId = new Guid("a528849a-4d7f-431b-8c06-640bddef8d5a"),
-                            Content = "---------------dwa---------------------ddwa---------------------ddwa---------------------ddwa-----",
-                            CreatedBy = "Test",
-                            CreatedDate = new DateTime(2024, 5, 7, 18, 21, 28, 876, DateTimeKind.Local).AddTicks(8064),
-                            ImageId = new Guid("903bd50c-1c68-4fb2-bb32-2b4aa7d9900d"),
+                            Id = new Guid("233daca3-a8ee-49ee-bcd8-28c873d28486"),
+                            CategoryId = new Guid("d23e4f79-9600-4b5e-b3e9-756cdcacd2b1"),
+                            Content = "Visual Studio Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt. Vivamus suscipit tortor eget felis porttitor volutpat. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt. Proin eget tortor risus. Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed porttitor lectus nibh. Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.",
+                            CreatedBy = "Admin Test",
+                            CreatedDate = new DateTime(2024, 5, 10, 10, 19, 38, 676, DateTimeKind.Local).AddTicks(5451),
+                            ImageId = new Guid("d16a6ec7-8c50-4ab0-89a5-02b9a551f0fa"),
                             IsDeleted = false,
-                            Title = "Asp net Deneme 212i",
-                            UserId = new Guid("1713c70c-1ef6-4201-b5fb-73e28054822c"),
-                            ViewCount = 16
+                            Title = "Visual Studio Deneme Makalesi 1",
+                            UserId = new Guid("3aa42229-1c0f-4630-8c1a-db879ecd0427"),
+                            ViewCount = 15
                         });
                 });
 
@@ -437,19 +437,19 @@ namespace Blog.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("f2e461bb-875d-4d0a-aff7-f8db21f937a1"),
-                            CreatedBy = "admin test",
-                            CreatedDate = new DateTime(2024, 5, 7, 18, 21, 28, 876, DateTimeKind.Local).AddTicks(8202),
+                            Id = new Guid("4c569a9a-5f41-478f-9d17-69ac5b02ae0b"),
+                            CreatedBy = "Admin Test",
+                            CreatedDate = new DateTime(2024, 5, 10, 10, 19, 38, 676, DateTimeKind.Local).AddTicks(5593),
                             IsDeleted = false,
-                            Name = "aspnet core "
+                            Name = "ASP.NET Core"
                         },
                         new
                         {
-                            Id = new Guid("a528849a-4d7f-431b-8c06-640bddef8d5a"),
-                            CreatedBy = "admin test",
-                            CreatedDate = new DateTime(2024, 5, 7, 18, 21, 28, 876, DateTimeKind.Local).AddTicks(8206),
+                            Id = new Guid("d23e4f79-9600-4b5e-b3e9-756cdcacd2b1"),
+                            CreatedBy = "Admin Test",
+                            CreatedDate = new DateTime(2024, 5, 10, 10, 19, 38, 676, DateTimeKind.Local).AddTicks(5596),
                             IsDeleted = false,
-                            Name = "aspnet core "
+                            Name = "Visual Studio 2022"
                         });
                 });
 
@@ -496,19 +496,19 @@ namespace Blog.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("3654c9a2-82c0-4e22-9479-7db9069fe409"),
+                            Id = new Guid("f71f4b9a-aa60-461d-b398-de31001bf214"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 5, 7, 18, 21, 28, 876, DateTimeKind.Local).AddTicks(8278),
-                            FileName = "dwadaw",
-                            FileType = "png",
+                            CreatedDate = new DateTime(2024, 5, 10, 10, 19, 38, 676, DateTimeKind.Local).AddTicks(5694),
+                            FileName = "images/testimage",
+                            FileType = "jpg",
                             IsDeleted = false
                         },
                         new
                         {
-                            Id = new Guid("903bd50c-1c68-4fb2-bb32-2b4aa7d9900d"),
+                            Id = new Guid("d16a6ec7-8c50-4ab0-89a5-02b9a551f0fa"),
                             CreatedBy = "Admin Test",
-                            CreatedDate = new DateTime(2024, 5, 7, 18, 21, 28, 876, DateTimeKind.Local).AddTicks(8281),
-                            FileName = "dwadaw",
+                            CreatedDate = new DateTime(2024, 5, 10, 10, 19, 38, 676, DateTimeKind.Local).AddTicks(5697),
+                            FileName = "images/vstest",
                             FileType = "png",
                             IsDeleted = false
                         });
